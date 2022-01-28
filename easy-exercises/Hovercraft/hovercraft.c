@@ -6,7 +6,7 @@ int main(void){
     printf("Enter the number of customers:\n");
     scanf("%d", &customer);
     new_amt = selling_price * customer;
-    if(new_amt>capital)
+    if (new_amt > capital)
     printf("Profit\n");
     else if(new_amt == capital)
     printf("Broke Even\n");
